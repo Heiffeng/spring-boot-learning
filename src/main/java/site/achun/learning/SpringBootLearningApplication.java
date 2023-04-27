@@ -1,7 +1,9 @@
-package site.achun.springbootlearning;
+package site.achun.learning;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import site.achun.learning.failure.analyzer.RequiredPropertyException;
 
 @SpringBootApplication
 public class SpringBootLearningApplication {
